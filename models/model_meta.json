@@ -1,0 +1,29 @@
+{
+  "model": "Random Forest",
+  "features": {
+    "numeric": [
+      "procedure_area",
+      "year",
+      "month",
+      "has_parking",
+      "no_of_parties_role_1",
+      "no_of_parties_role_2",
+      "no_of_parties_role_3"
+    ],
+    "categorical": [
+      "area_name_en",
+      "rooms_en",
+      "property_type_en",
+      "property_usage_en",
+      "nearest_metro_en"
+    ]
+  },
+  "target": "actual_worth",
+  "target_transform": "log1p / expm1",
+  "cv_r2_mean": 0.8793,
+  "cv_r2_std": 0.0008,
+  "test_R2": 0.846,
+  "test_MAE_AED": 242667.32,
+  "test_RMSE_AED": 195393467734.24,
+  "test_MAPE_pct": 18.07
+}
