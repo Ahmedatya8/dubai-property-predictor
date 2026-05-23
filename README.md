@@ -48,11 +48,11 @@ and agents get a data-driven price estimate instantly.
 
 | Model | CV R² |
 |---|---|
-| Linear Regression | ~0.53 |
-| Ridge | ~0.53 |
-| Decision Tree | ~0.87 |
-| Random Forest | ~0.93 |
-| **XGBoost** | **~0.92** |
+| Linear Regression | ~0.63 |
+| Ridge | ~0.63 |
+| Decision Tree | ~0.81 |
+| Random Forest | ~0.88 |
+| **XGBoost** | **~0.86** |
 
 
 ---
